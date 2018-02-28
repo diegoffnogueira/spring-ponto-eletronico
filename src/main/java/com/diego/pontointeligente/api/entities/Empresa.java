@@ -11,7 +11,7 @@ public class Empresa implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long ig;
+    private Long id;
 
     @Column(name = "razao_social", nullable = false)
     private String razaoSocial;
@@ -32,11 +32,11 @@ public class Empresa implements Serializable{
     }
 
     public Long getIg() {
-        return ig;
+        return id;
     }
 
     public void setIg(Long ig) {
-        this.ig = ig;
+        this.id = ig;
     }
 
     public String getRazaoSocial() {
@@ -94,7 +94,7 @@ public class Empresa implements Serializable{
     @Override
     public String toString() {
         return "Empresa{" +
-                "ig=" + ig +
+                "id=" + id +
                 ", razaoSocial='" + razaoSocial + '\'' +
                 ", cnpj='" + cnpj + '\'' +
                 ", dataCriacao=" + dataCriacao +
