@@ -1,7 +1,6 @@
 package com.diego.pontointeligente.api.services.implementacao;
 
 import com.diego.pontointeligente.api.entities.Funcionario;
-import com.diego.pontointeligente.api.repositories.EmpresaRepository;
 import com.diego.pontointeligente.api.repositories.FuncionarioRepository;
 import com.diego.pontointeligente.api.services.FuncionarioService;
 import org.slf4j.Logger;
